@@ -1,0 +1,71 @@
+/* styles.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 48px; /* Increase the font size of the title */
+    font-family: Arial, sans-serif; /* Change the font family of the title */
+    font-weight: bold; /* Optionally, make the title bold */
+    color: white; /* Optionally, change the font color of the title */
+}
+.image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#question {
+    font-size: 36px; /* Adjust the font size of the question */
+}
+
+#options {
+    margin-top: 30px;
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Set direction to row */
+    justify-content: center; /* Center the options horizontally */
+    flex-wrap: wrap; /* Allow options to wrap to the next line if needed */
+}
+
+button {
+    margin: 5px; /* Add margin to create space between options */
+    padding: 20px 30px; /* Adjust the padding to increase button size */
+    font-size: 16px; /* Adjust the font size of the options */
+}
+
+input[type="range"] {
+    width: 100%; /* Make the slider fill the width of its container */
+    height: 30px; /* Adjust the height of the slider */
+    margin-top: 10px; /* Add margin to separate the slider from other elements */
+}
+
+#next-btn {
+    background-color: green; /* Set the background color to green */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove the border */
+    padding: 20px 30px; /* Adjust the padding */
+    font-size: 16px; /* Adjust the font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 20px;
+}
+
+#result-container {
+    margin-top: 40px;
+}
+/* styles.css */
+body {
+    background-image: url('bg.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: white;
+}
+#result {
+    font-size: 48px; /* Increase the font size of the result text */
+}
